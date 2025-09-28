@@ -1,3 +1,4 @@
+                                    #Sentiment Analysis (Naive Bayes)
 import pandas as pd
 msg = pd.read_csv('6-document.csv', names=['message', 'label'])
 print("Total Instances of Dataset: ", msg.shape[0])
@@ -29,4 +30,5 @@ print('Accuracy Metrics: \n')
 print('Accuracy: ', accuracy_score(ytest, pred))
 print('Recall: ', recall_score(ytest, pred))
 print('Precision: ', precision_score(ytest, pred))
+
 print('Confusion Matrix: \n', confusion_matrix(ytest, pred))
