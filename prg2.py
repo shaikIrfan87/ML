@@ -1,3 +1,4 @@
+                            #Candidate Elimination Algorithm
 import csv
 with open('2-document.csv') as f:
     csv_file = csv.reader(f)
@@ -27,3 +28,4 @@ for i in g:
             break
 print("Final specific hypothesis:", s)
 print("Final general hypothesis:", gh)
+
