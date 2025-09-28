@@ -1,3 +1,5 @@
+                                    #Concept Learning using Find-S Algorithm
+
 import csv
 a=[]
 with open('1-document.csv','r')as csvfile:
@@ -24,3 +26,4 @@ for i in range (0,len(a)):
         print("The hypothesis specific hypothesis for the training instance",i+1,"is:",hypothesis,"\n")
 print("\n The normally specific hypothesis for the training instance is",hypothesis)       
     
+
