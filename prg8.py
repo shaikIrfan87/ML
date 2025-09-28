@@ -1,3 +1,4 @@
+                                          #Iris Clustering: KMeans vs GMM
 from sklearn.cluster import KMeans
 from sklearn.mixture import GaussianMixture
 import sklearn.metrics as metrics
@@ -27,3 +28,4 @@ plt.title('GMM Classification')
 plt.scatter(X.Petal_Length,X.Petal_Width,c=colormap[y_cluster_gmm])
 print('The accuracy score of EM: ',metrics.accuracy_score(y, y_cluster_gmm))
 print('The Confusion matrix of EM:\n ',metrics.confusion_matrix(y, y_cluster_gmm))
+
