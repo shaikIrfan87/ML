@@ -1,3 +1,4 @@
+#Spam Detection (Naive Bayes)
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
@@ -27,4 +28,5 @@ print("Classification Report:\n", classification_report(y_test, y_pred))
 new_text = ["Win money with this new opportunity"]
 new_text_transformed = vectorizer.transform(new_text)
 prediction = model.predict(new_text_transformed)
+
 print("Prediction for new text:", prediction)
