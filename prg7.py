@@ -1,3 +1,4 @@
+                            #Heart Disease Prediction (Bayesian Network)
 import numpy as np
 import pandas as pd
 from pgmpy.estimators import MaximumLikelihoodEstimator
@@ -34,3 +35,4 @@ print(q1)
 print('\n2. Probability of HeartDisease given evidence: cp = 2')
 q2 = HeartDiseasetest_infer.query(variables=['heartdisease'], evidence={'cp': 2})
 print(q2)
+
