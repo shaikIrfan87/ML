@@ -1,3 +1,4 @@
+#House Price Prediction (Linear Regression)
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -21,4 +22,5 @@ r2 = r2_score(y_test, y_pred)
 print(f"Mean Squared Error: {mse:.2f}")
 print(f"R^2 Score: {r2:.2f}")
 predictions = pd.DataFrame({'Actual Price': y_test, 'Predicted Price': y_pred})
+
 print(predictions)
