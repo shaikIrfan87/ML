@@ -1,3 +1,4 @@
+                                        #Simple ANN Regression
 import numpy as np
 
 X = np.array(([2, 9], [1, 5], [3, 6]), dtype=float)
@@ -53,3 +54,4 @@ for i in range(epoch):
 print("Input: \n", X)
 print("Actual Output: \n", y)
 print("Predicted Output: \n", output)
+
