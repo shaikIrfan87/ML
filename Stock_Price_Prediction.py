@@ -1,3 +1,4 @@
+#Stock Price Prediction (LSTM)
 import numpy as np
 import pandas as pd
 import yfinance as yf
@@ -43,4 +44,5 @@ label='Test Predictions')
 plt.xlabel('Time')
 plt.ylabel('Stock Price')
 plt.legend()
+
 plt.show()
